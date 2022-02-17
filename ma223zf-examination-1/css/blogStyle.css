@@ -1,0 +1,99 @@
+
+             
+
+
+
+
+body
+{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/background.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+h1
+{
+    text-align: center;
+    position: relative;
+    color: white;
+    
+}
+
+.main_nav
+{
+    
+    text-align: center;
+    list-style: none;
+    margin-right: 30px;
+}
+.main_nav li
+{
+    display: inline-block;
+   
+}
+
+.main_nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.main_nav li a:hover
+{
+   
+    background-color: burlywood;
+}
+
+
+.main_nav li a:active
+{
+   
+   text-decoration: underline;
+   color: white;    
+}
+
+#current
+{
+     background-color: burlywood;
+}
+
+.main_content 
+{   
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 120px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.main_content p
+{   
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+footer 
+{
+        text-align: center;
+        position: relative;
+        bottom:0; 
+       
+ }
+.copyright{
+  margin-top: 40px;
+ text-align: center;
+ font-size: 12px;
+ color: white;    
+    
+}

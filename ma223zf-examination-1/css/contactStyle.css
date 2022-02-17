@@ -1,0 +1,146 @@
+
+*{
+    box-sizing: border-box;
+    
+}             
+
+
+
+
+body
+{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/background.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main_nav
+{
+    
+    text-align: center;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.main_nav li
+{
+    display: inline-block;
+   
+}
+
+.main_nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.main_nav li a:hover
+{
+   
+    background-color: burlywood;
+}
+
+
+.main_nav li a:active
+{
+   
+   text-decoration: underline;
+   color: white;    
+}
+
+#current
+{
+     background-color: burlywood;
+}
+
+.main_content 
+{   
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+   
+   
+}
+
+form 
+{ 
+      display: block; 
+      width: 100%; 
+      margin: 0 auto;
+ } 
+
+fieldset { 
+      margin-top: 3%; 
+  } 
+ 
+legend
+{
+    text-align: left;
+}
+
+
+select 
+{ 
+ width: 40%; 
+ margin-left: 5%; 
+} 
+
+label 
+{ 
+  margin-left: 25%; 
+  } 
+  
+ 
+ select { 
+ width: 40%; 
+ margin-left: 5%; 
+} 
+ 
+ 
+  input { 
+      width: 40%; 
+      margin-left: 4%; 
+      margin-top: 2%; 
+ } 
+
+ 
+ textarea { 
+    margin-left: 2%; 
+      margin-top: 2%; 
+     width: 40%; 
+  } 
+  
+ 
+#button
+{
+   
+   height: 35px;
+   width: 80px;
+   font: bold 15px sans-serif;
+   
+}
+
+footer 
+{
+    text-align: center;
+    position: relative;
+    bottom:0;    
+ }
+
+.copyright{
+    
+  margin-top: 40px;
+ text-align: center;
+ font-size: 12px;
+ color: white;    
+    
+}

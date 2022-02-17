@@ -1,0 +1,107 @@
+
+             
+
+
+
+
+body
+{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/background.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+article
+{
+     margin-left: 250px;
+     margin-right: 250px;
+     font-family: sans-serif;
+     font-size: 18px;
+}
+
+
+
+.main_nav
+{
+    
+    text-align: center;
+    list-style: none;
+    margin-right: 30px;
+}
+.main_nav li
+{
+    display: inline-block;
+   
+}
+
+.main_nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.main_nav li a:hover
+{
+   
+    background-color: burlywood;
+}
+
+
+.main_nav li a:active
+{
+   
+   text-decoration: underline;
+   color: white;    
+}
+
+#current
+{
+     background-color: burlywood;
+}
+
+
+#my_image
+{
+    
+    width: 22%;
+    display: block;
+    margin: 0 auto;
+}
+
+article
+{
+     margin-left: 250px;
+     margin-right: 250px;
+     font-family: sans-serif;
+     font-size: 18px;
+}
+
+
+iframe
+    {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    }
+
+footer 
+{
+   text-align: center;
+   position: relative;
+   bottom:0; 
+       
+ }
+.copyright{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: white;    
+    
+}

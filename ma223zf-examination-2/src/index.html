@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="backgroundBox">
+    </div>
+        <div class="UserName-container invisible box" id="UserName-container">
+            Enter your name: <div class="userName-text"><input type="text" id="nickTxt" class="userName-text" autofocus/>  </div>
+            <button id="savePlayerName">Save</button>
+        </div>
+
+        <div id="GameDiv" class="GameDiv invisible box">
+            <div class="quiz-container" id="quiz"></div>
+
+            <button id="submit">Submit</button>
+            <div id="counter"></div>
+        </div>
+
+        <div class="done-container invisible box" id="done-container">
+            <div id="results" class="result"></div>
+            <button id="startOver">Start Over</button>
+            <div class="invisible" id="new-record" style="margin-top:-180px; width: 30%; height: 400px;">
+                <img src="assets/img/record.png" style="height:200px;" />
+                
+            </div>
+        </div>
+        <script src="build.js"></script>
+   
+
+
+</body>
+</html>
