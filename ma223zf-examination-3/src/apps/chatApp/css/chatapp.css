@@ -1,0 +1,142 @@
+.MessageElement
+{
+    background-color: #e2dede;
+    border-top: 1px solid #EEE;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #EEE;
+    font-family: Helvetica, Arial, sans-serif;
+    display: inline-block;
+    width: 92%;
+    font-weight: bold;
+    color: #4c4a46;
+    font-size: 0.76rem;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+.textSubmit {
+    /* position: fixed; */
+    /* top: 400px; */
+    width: 75%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+    min-height: 20px; 
+}
+.buttonSubmit{
+    background: #b9a178;
+    display: inline-block;
+    border-radius: 3px;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.6rem 1em;
+    color: white;
+    margin: 0 0.25rem;
+    text-align: center;
+    border-bottom: 1px solid #999;
+}
+.message-container
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 150px;
+}
+#send-container
+{
+    position: absolute;
+    bottom: 27px;
+    width: 100%;
+}
+.UserName-container
+{
+    display: block;
+    margin: 95px 0 0 0;
+    background-color: #cac9c68c;
+    padding: 10px;
+}
+
+ .sidebar {
+    /* height: 250px; */
+    z-index: 1;
+    position: absolute;
+    background-color: #2f2219;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 187px;
+}
+
+ 
+.deletetxt {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.deletetxt:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    
+    
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin: 0!important;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.main {
+    background-color: #2f2219;
+    /* transition: margin-left .5s; */
+    /* padding: 16px; */
+    /* position: relative !important; */
+    width: 103.5%;
+    /* color: bisque; */
+    margin: -7px;
+    margin-bottom: 5px;
+}
+
+.closed {
+    display: none;
+    /* height: 0px !important; */
+}
+
+.opened {
+    display: block !important;
+    /* height: 250px !important; */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .deletetxt {
+        font-size: 18px;
+    }
+}
+ .userNameLabel
+ {  
+       color: #ffffff;
+    font-size: 20px;
+    margin: 130px;
+}
+  

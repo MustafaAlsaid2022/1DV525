@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <script defer type="module" src="js/App.js"></script>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/memoryGame22.css">
+</head>
+<body>
+<nav class="navbar navbar-light bg-light sticky-top float-right ">
+    <div class="container ">
+        <span id="menuButton" class="navbar-toggler-icon"></span>
+    </div>
+</nav>
+
+<div class="container game">
+    <section class="memory-game"></section>
+</div>
+
+<!--Modal View for Setting-->
+<div class="modal  align-middle" id="menuModal">
+    <div class="container modal-content">
+        <div class="input-group mb-3">
+            <select id="gameSizeOption" class="custom-select">
+                <option selected>Select Game Size</option>
+                <option value="2x2">2x2</option>
+                <option value="4x4">4x4</option>
+                <option value="4x6">4x6</option>
+            </select>
+            <div class="input-group-append">
+                <button id="changeGameSizeButton" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

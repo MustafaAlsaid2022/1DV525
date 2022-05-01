@@ -1,0 +1,31 @@
+{
+  "name": "pwd_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node my-tests.js",
+    "start": "webpack-dev-server --port 3000",
+    "watch": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "standard": "^14.3.4",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "standard": {
+    "ignore": [
+      "/bootstrap/",
+      "/dist/"
+    ],
+    "globals": [
+      "WebSocket"
+    ]
+  }
+}
